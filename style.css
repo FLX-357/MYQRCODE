@@ -1,0 +1,83 @@
+.background {
+    background-color: #13547d;
+}
+
+* {
+    font-family: fantasy;
+}
+.Titel1{text-align: center;
+margin-top: 5rem;
+font-size: 50px;
+color: black;}
+.Titel2{text-align: center;
+   margin-bottom: 2.5rem;
+    color: black;}
+
+#Test{text-align: right   !important; }
+.Experiment {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5rem;
+    margin-bottom: -2rem;
+}
+.Experiment2 {
+  
+    text-align: center;
+    margin: 5rem;
+}
+.Experiment3 {
+  
+    justify-content: center;
+  
+}
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.Experiment4{ 
+    margin: 5rem;
+}
+
+
+.Bild{ 
+    margin-top: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 50px;
+   font-family: fantasy ;
+}
+
+.Text{
+    margin-top: 5px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 50px;
+   font-family: fantasy ;}
+   
+
+.blink {
+    font-size: xx-large;
+    color: red;
+    font-family: fantasy;
+    animation-name: animation_blink;
+    animation-timing-function: ease-in;
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;            
+}
+
+@keyframes animation_blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }    
+}
+
+#morrissey p::first-line
+{ color: cyan; }
+.infob p:nth-of-type(even)
+{ color: lime; }
+span #description { color: blue; }
